@@ -15,9 +15,18 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React_some_cange_1_
         </a>
+        <MyButton></MyButton>
       </header>
+    </div>
+  );
+}
+
+function MyButton() {
+  return(
+    <div>
+      <h1>Hello World</h1>
     </div>
   );
 }
