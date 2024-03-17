@@ -2,37 +2,93 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Header {
+  background-color: #23073d;
+  min-height: 100vh; /*min-height: 100vh для закраски дисплея полностью*/
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: left;
+  
+}
+
+.text_Hello_World {
+  color: #0c770c;
+  font-size: 40px;
+}
+
+.panel_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+
+.button_red {
+  background-color: red;
+}
+
+.button_orange {
+  background-color: orange;
+}
+
+.button_yellow {
+  background-color: yellow;
+}
+
+.button_green {
+  background-color: green;
+}
+
+.button_blue {
+  background-color: blue;
+}
+
+.button_lightblue {
+  background-color: lightskyblue;
+}
+
+.button_purpul {
+  background-color: purple;
+}
+
+.Yandex_Wrapper {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.wrapper_button_search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top:10px;
+}
+
+.button_search {
+  background-color: yellow;
+}
+
+.Yandex_Text {
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.Yandex_Y {
+  color: red;
+}
+
+.react_picture {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 40vmin;
+  pointer-events: none;
 }
